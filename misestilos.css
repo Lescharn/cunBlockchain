@@ -1,0 +1,183 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2ecc71; /* Verde brillante, simboliza innovación y confianza */
+}
+
+h2 {
+    font: bold 14px Verdana, Arial, sans-serif;
+    color: #1abc9c; /* Verde azulado para subtítulos */
+}
+
+body {
+    text-align: center;
+    background-color: #1e272e; /* Gris oscuro moderno */
+    color: #ecf0f1; /* Blanco tenue para texto */
+}
+
+#cuerpo {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#encabezado {
+    background: #34495e; /* Azul grisáceo oscuro */
+    border: 1px solid #2c3e50; /* Azul profundo */
+    padding: 20px;
+    color: #ecf0f1; /* Blanco tenue */
+}
+
+#menu {
+    background: #16a085; /* Verde azulado vibrante */
+    padding: 5px 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #1abc9c; /* Verde azulado más claro */
+    color: #ffffff; /* Texto blanco */
+}
+
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+#lateral {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #2c3e50; /* Azul oscuro tecnológico */
+    color: #ecf0f1; /* Blanco tenue */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#lateral:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #1abc9c; /* Verde azulado */
+    background: #34495e; /* Azul grisáceo oscuro */
+}
+
+article {
+    background: #2c3e50; /* Azul oscuro */
+    border: 1px solid #1abc9c; /* Verde azulado */
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+article:hover {
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+article footer {
+    text-align: right;
+    color: #95a5a6; /* Gris tenue */
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px Verdana, sans-serif;
+    color: #ffffff; /* Texto blanco */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    color: #ecf0f1; /* Blanco tenue */
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #95a5a6; /* Gris tenue */
+}
+
+table input[type="text"],
+table input[type="email"],
+table input[type="number"],
+table input[type="date"] {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #1abc9c; /* Verde azulado */
+    border-radius: 4px;
+    background-color: #34495e; /* Azul grisáceo oscuro */
+    color: #ecf0f1; /* Texto blanco */
+}
+
+.imgcabecera {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.imgencabezado {
+    clip-path: circle(21%);
+    width: 800px;
+    transition: .9s;
+}
+
+.imgencabezado:hover {
+    clip-path: circle(100%);
+    scale: 1.02;
+}
+
+#imgArt1, #imgArt2 {
+    height: 150px;
+    width: 250px;
+}
+
+.navEnalce{
+    color: #ecf0f1;
+    padding: 5px ;
+    text-decoration: none;
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    font-family: Arial, sans-serif; /* Fuente moderna */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.navEnalce:hover{
+    background: #34495e;
+}
+
+.texto1{
+    color: #2ecc71;
+    font-size: 20px;
+    line-height: 3vh;
+}
+
+.texto2{
+    color: #b9eb2e;
+    font-size: 20px;
+    line-height: 3vh;
+}
+
+.texto3{
+    color: #b2fa54;
+    font-size: 20px;
+    line-height: 3vh;
+}
