@@ -17,67 +17,23 @@
         </div>
     </header>
     <nav id="menu">
-        <a href="#" class="navEnalce">Modulo 1</a>
-        <a href="#" class="navEnalce">Modulo 2</a>
-        <a href="#" class="navEnalce">Modulo 3</a>
+        <a href="#modulo1" class="navEnalce">Modulo 1</a>
+        <a href="#modulo2" class="navEnalce">Modulo 2</a>
+        <a href="#modulo3" class="navEnalce">Modulo 3</a>
     </nav>
 
     <section id="seccion">
-        <div id="anuncio" style="
-            display: flex;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            justify-items: center;
-            align-items: center;
-            z-index: 9999;">
-            <div style="
-                background-color: #b0e92a;
-                padding: 20px;
-                border-radius: 10px;
-                text-align: center;
-                position: relative;
-                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para mejor estética */
-                max-width: 80%; /* Limita el tamaño máximo */
-                width: 400px; /* Tamaño fijo más amigable */
-                ">
-              <button id="cerrar" style="
-                position: absolute;
-                top: 10px;
-                right: 10px;
-                background-color: #ff5555;
-                color: #fff;
-                border: none;
-                border-radius: 50%;
-                width: 30px;
-                height: 30px;
-                font-size: 16px;
-                cursor: pointer;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
-                transition: background-color 0.3s ease;">X</button>
-              <img src="img/curso.jpg" alt="anuncio" style="
-                  max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
-                  height: auto; /* Mantiene la proporción */
-                  border-radius: 10px;
-                  margin-bottom: 15px;">
-            <p style="
-                 margin-top: 15px; 
-                 font-size: 18px;
-                 color: #34495e; 
-                 font-family: Arial, sans-serif;
-            ">No te pierdas nuestras ofertas especiales</p> 
+        <div id="anuncio">
+            <div id="principal" style=>
+              <button id="cerrar">X</button>
+              <img id="imgbanner" src="img/curso.jpg" alt="anuncio">
+            <p id="pbanner"><b>No te pierdas nuestras ofertas especiales</b></p> 
             </div>
 
         </div>
         <article>
            <h2>Introducción a la tecnología Blockchain</h2><br>
-           <p class="texto1"><b>El blockchain:</b> es una tecnología que permite la creación de un registro
+           <p id="modulo1" class="texto1"><b>El blockchain:</b> es una tecnología que permite la creación de un registro
             digital compartido y descentralizado de transacciones <mark>Primer bloque (Genesis Block)</mark>
             <br>
             <br>
@@ -94,7 +50,7 @@
         <article>
             <h2>Historia y evolución del blokchain</h2>
             <br>
-           <p class="texto2"><b> Bitcoin y Satoshi Nakamoto:</b> el concepto de blockchain fue introducido por
+           <p id="modulo2" class="texto2"><b> Bitcoin y Satoshi Nakamoto:</b> el concepto de blockchain fue introducido por
             primera vez en el documento técnico (whitepaper) de Bitcoin, publicado en 2008
             por una persona o grupo bajo el pseudónimo de Satoshi Nakamoto. Este
             documento describía un sistema de moneda digital descentralizado que no
@@ -118,7 +74,7 @@
         <article>
             <h2>Principios Básicos y terminologia clave</h2>
             <br>
-           <p class="texto3">
+           <p id="modulo3"    class="texto3">
             <b>Descentralización</b>
             En un sistema blockchain, no existe una autoridad central o un único punto de control. En
             lugar de ello, cada participante (nodo) en la red tiene una copia completa del ledger
@@ -159,7 +115,7 @@
         </form>
     </aside>
     <footer id="pie">
-        Charles Harvey Navarro Garzón. Instructor de Yoga, Apasionado por el mundo blokchain.  Email: chhnavarrog@gmail.com - 2024
+    Charles H. Navarro G. Blokchain.  <a id="piegit" href="https://github.com/Lescharn/cunBlockchain" target="_blank">Repositorio github</a> Email: chhnavarrog@gmail.com - 2024
     </footer>
 </div>
 <script src="anuncio.js"></script>

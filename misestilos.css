@@ -181,3 +181,66 @@ table input[type="date"] {
     font-size: 20px;
     line-height: 3vh;
 }
+
+#anuncio {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-items: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#cerrar {
+           position: absolute;
+                top: 10px;
+                right: 10px;
+                background-color: #ff5555;
+                color: #fff;
+                border: none;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                font-size: 16px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+                transition: background-color 0.3s ease;
+}
+
+#imgbanner {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#principal {
+    background-color: #b0e92a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position:relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para mejor estética */
+    max-width: 80%; /* Limita el tamaño máximo */
+    width: 400px; /* Tamaño fijo más amigable */
+}
+
+#pbanner {
+    margin-top: 15px; 
+    font-size: 18px;
+    color: #002446; 
+    font-family: Arial, sans-serif;
+}
+
+#piegit{
+    color: rgb(160, 203, 229);
+    font-size: 20px;
+    border: 2px solid #37aaf7;
+}
